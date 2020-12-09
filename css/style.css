@@ -281,7 +281,7 @@ a {
 
 @font-face {
     font-family: 'Burbank';
-    src: url('/burbank-big-condensed-black.otf');
+    src: url('../burbank-big-condensed-black.otf');
   }
 
 @media only screen and (max-width: 1366px) {
