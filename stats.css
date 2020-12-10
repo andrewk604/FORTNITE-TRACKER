@@ -1,0 +1,124 @@
+.stats-main-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url(../images/bg1.jpg) no-repeat;
+    height: 500px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 4%;
+    padding: 1%;
+    font-family: 'Burbank';
+}
+
+.stats-block-left {
+    height: 98%;
+    border: 1px solid red;
+    width: 35%;
+    font-family: 'Burbank';
+}
+
+.stats-block-right {
+    height: 98%;
+    width: 55%;
+}
+
+.stats-solo {
+    height: 30%;
+    border: 1px solid blue;
+    margin-bottom: 4%;
+}
+
+.stats-duo {
+    height: 30%;
+    border: 1px solid red;
+    margin-bottom: 4.5%;
+}
+
+.stats-squad {
+    height: 30%;
+    border: 1px solid black;
+}
+
+/*Left block`s header*/
+
+.stats-block-left-header {
+    height: 7% !important;
+    background: rgba(2, 230, 97, 0.795) !important;
+    color: white;
+    font-size: 30px;
+}
+
+.stats-header {
+    color: white;
+    font-family: 'Burbank';
+    font-size: 30px;
+    height: 24%;
+     
+}
+
+.left-block-header-name {
+    float: left;
+    margin: 1% 0 1% 2%;
+}
+
+.left-block-header-games-value {
+    float: right;
+    margin: 1% 2% 1% 0;
+}
+
+/*Left block content*/
+
+.stats-block-left-content {
+    padding-right: 5px;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    margin-bottom: 30%;
+}
+
+.stats-block-left-statistics {
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+.left-block-statistics-div {
+    float: left;
+}
+
+.general-li-value {
+    font-size: 24px !important;
+    color: white !important;
+    padding-bottom: 20px;
+}
+
+.stats-ul>li {
+    font-size: 13.5px;
+}
+
+/*Right block`s headers*/
+
+.stats-block-right-solo-header {
+    background: red;
+}
+
+.duo-header {
+    background: violet;
+}
+
+.squad-header {
+    background: black;
+}
+
+/*  Media  */
+
+@font-face {
+    font-family: 'Burbank';
+    src: url('../fonts/burbank-big-condensed-black.otf');
+  }
